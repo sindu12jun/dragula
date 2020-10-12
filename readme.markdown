@@ -197,6 +197,10 @@ By default, spilling an element outside of any containers will move the element 
 
 By default, spilling an element outside of any containers will move the element back to the _drop position previewed by the feedback shadow_. Setting `removeOnSpill` to `true` will ensure elements dropped outside of any approved containers are removed from the DOM. Note that `remove` events won't fire if `copy` is set to `true`.
 
+#### `options.animation`
+
+If the `animation` is true, there will be smooth animation after dragging finish.
+
 #### `options.direction`
 
 When an element is dropped onto a container, it'll be placed near the point where the mouse was released. If the `direction` is `'vertical'`, the default value, the Y axis will be considered. Otherwise, if the `direction` is `'horizontal'`, the X axis will be considered.
